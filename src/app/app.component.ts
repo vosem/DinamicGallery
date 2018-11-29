@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'DinamicGallery';
+  cards = [
+  	{name: 'Alexa'},
+  	{name: 'Alexa1'},
+  	{name: 'Alexa2'},
+  	{name: 'Alexa3'},
+  	{name: 'Alexa4'},
+  ]
 }
