@@ -1,14 +1,12 @@
 const express = require('express');
-const app = express();
 const path = require('path');
+const app = express();
 
-app.use(express.static(__dirname = 'dist'));
-app.engine('.html', require('ejs').__express);
-app.set('view engine', 'html');
-app.listen(process.env.PORT || 8080);
+app.use(express.static(__dirname = '/dist/dinamic-gallery'));
 
-app.get('/', function (req, res) {
-	res.render('index');
+app.get('/*', function (req, res) {
+	res.sendFile(path.join(__dirname+'/dist/dinamic-gallery/index.html'));
 });
+app.listen(process.env.PORT || 8080);
 
 console.log('Console listening!');
