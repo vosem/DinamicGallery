@@ -6,21 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  cards = [
+  images = [
   	{
-      name: 'One year old Beauty',
+      name: 'one year old beauty',
       url: 'https://lh3.googleusercontent.com/FuCiJJkGw4U09MaGL4cVtTTXiFKJjhpVWLQ6xNVFCxWNfRhRmqE0M_Yry3qL5wg3XDir4RT6dlqlUCBbYFZKUhb5mbuK3s_TXGB5iDKhfeBuT6K-YE6AvAiMVsvTwvPtj04uxfwvb9g3agExfeMDflmuELz9XrHTPmjHkyiregwGwoO--lbpkwbZ9RDkTRzFd1Xtchmz58sRVBU4yfq1bKoK2wx3e4ikwVWJlOoIajG7yDv-F5Foce_lpKuGZYqInXtTOzXB0p7UCLEpQE3w9Fp0IpZNJuxAF2PhCOKDvDJVTk2OK5GgBtilzCMj_GgjJLXhytgcHlKlp4XzqdHgOTogdrnin-cUedd9h9AfZ2NjVoRMPEw2WGg6dvaog-utzGUNc99IpE7uN3UTEVh--HRCAoVnNaqAxMElsNDok7vCXEcQbzGG5hqxaJ1o05jKNf3gNsD6QDHaLxKZ_foLU5txrU5QXykrdIc21ICFkCQs8m-X-3VoBObAnAzzcnfg7Jhis3dnjb05MJI-WHbIn53RqcVlhK17qq7JssghpGVcK9IvaJv-4krogKo0cmiP4Oeau1I45gg2E4IvDPP8bMKzE462YILf1PpO5KBejksrGdrQXrGoqCDm_X3LNmj7o-PT0tDBat2ST7ZyRxPG6lLy_XFvIBPfCc1qLznP5focZQNNyCxeXzyvbyVm0PzgeC3yTXXKewMrtRO_8mc=w506-h758-no'
     },
     {
-      name: 'Family',
+      name: 'family',
       url: 'https://lh3.googleusercontent.com/qTavp1Eyc_MkyUkONlPhlhyHvg3JiHFSlD7mK4YRDTmq8WgNO7MYpeDkbH8QK700jAeKbIElbofsIMnbQwVx_OIUaYcIO-SrRwGw-QX-pK6goPf7Bgum98xDOCg6n6iHT8G37E9gOG6GM-D5kEAAv1_3J_MOBv57su-ogbgEXesMLwlLbX9TFAcD0QznuG8D3Ruy9dwV1qpAZNe53MtpUeZWQHXnEWCzGUqDpNRWdHYKFQLY8Lzh9AGViOyNDtZmVaws5ru3H3o2FCSpwqt9RADLOEPs5pg6t2Tczvjb_AnlDcX3sElh8V4VSl4nhuDdQ4kHkJWPAIywGHwgtf9dB9Oc_U9Pylb7b3ZxkLT6lW9Ig5UMP3Xi-TC4gecyPmunbxywddn1nvcC6m2TI149BAoVNg82UbB-R6gEmvfrCXSktla666Xy0Ydnfwq2XsifJIS5VolnfamCyNkPxf_NRFJscGE77wOsxpOs0r-Z2-5uZi85-jrm9-QFm36GiyAbRH6I27kxwg_F38Vx2Vcc3AEXyyOSUHGO4aOeTbM3d8i64-8w2u7ZV5zdgwM0uhfw1MIgiiaysh3kDykkD6eiKc9ZyogMRiaaaGRcegwNnvuRu03E4jXmYTAjc0LjHXD2eGHCCsEZV6ZanTnQZmLoPwQ8UsWgSTX_Q6GqKGfW9gBi9AGA3YOIhJYFNAF2XlwiDwi9Q0eTPC8SZgRJ70A=w499-h748-no'
     },
     {
-      name: 'papa - best:)',
+      name: 'papa - best :)',
       url: 'https://lh3.googleusercontent.com/7ryUkDXzGO1AGaGOJ-FHsiqIyigP1yzA-6M5JSLVPe-Ra1hxBsrqfRSEuQpAZp4UASjuf1cHwXZ0Jec2Fqq-B_DV5_i8ba_ERPYpxGTS1fg5tKzK6xSJTiOw_3tvqDUu5uwbpEHQhbzggRFd38ut6LNWggYGu_hPwWYC_PJffv-1XAkuheoQaqmL6YIRCHfnux6ODku5pxCOkdoxUpmLgvjlio63u2-3n3zIS505sH_ykNOXcY4LJekvFDiNQYH-7YkfbCQoNGVQYnOXpLPyckw2nywb0bZ9PfqpeEIGgC05VVOYTiQ-Sf-NI9iwCGTXDvdxHzPCC7eEdZACNKXOWEYGeQJhS_YaHsBVtgxSlIZ9f-SLWGLEQi3hIFI9UPp7wgqHEl8s7lMm_tkRgmx8WBuKUxyrguFtg_Jy188Pq9FBkFkp-EAGXWGjEa7rR5vaZPWZBlDr5sqm4omh--fLWQPY0dY9wp1hUMF0DBuWLTnrqIwvAQV4-htzNmqqjeVz_ytZ64lkyR1hKT4SbzkjxJoH5XIMucbbPyL-oVHSS9RGWl38NWknOERNk2EDo_D85JhyqHnskz1Z6A---RajHT6BXeVT-1YRN40wh0ZU9aKwceUtypHmXvEL74_77w4PP9FCHiw6_lQYGAPihvKSPWYIj_P1q51AudbJFexI0-3hFnXLbHqfxXY-woCaUJ9TSuS5cZLArSFVMIuL7JI=w506-h758-no'
     },
     {
-      name: 'yummy...',
+      name: 'yummy',
       url: 'https://lh3.googleusercontent.com/kka8zpLNOQmtzmufShls6zJ5Xr2Xzz4G8_bN7UndXZ3MsrrY8FOwSdEeM3jwD2g7aQ8ETP4DC6TL6hKVnzHb0znACas4Bk-uXVuidh5rDj4nKN7h5Jk9LIXy_WwyLIdaYV9i3OFWIec00t8AIv26wlR_eMbJy3uCTV-jPp2B-seR1yELWvSH3EOwaXaYIrzoQ_BS9GSe69ermcz8lrwCTeqEWf1kc9Av4RQLVk_QWvb5_g28I2OyDH76Kc1AlIp6Tf_znSwE2Hw-DmdAZvjiLMm7T-3jpRCpFAS-GhxejW36xCHLv8QNhBJ8JgHH9GIUZSvRvGmtFwiHfYEWE5bLp6KbAOza-yJ-1rwVUgfBDyNN3IlpLDssxcamDxtUqsu9cqu0Euu00SDfFsC_7siU5navAk02KAybvdrBORpXJHwxuRBW0HubvZxnMOQ10Y7M9UM99SYf9EkmzmS8iUzl7bNXcqKTtOGS79BkSfPXPq2YKz6Cp0CdfDx6LCWh3Y82qfbTohfvnk4RLxcEmnzL7SxCeuFRHzbHw9mEjdpNMRTfyx6FgnLl_CQVuSOifhFBsHXeTftCoSYbSKVK6IWr_FUfNz2iNt-HhuK2_nZJ_nJo0wCSSSrpCCy9T7oCPkL8duucCWdNZInvkA8jDdPaR8eFyFGGO7gjInQN13ASPSXOdxpdYWiBKqeP9FNRtRiy4s_Rl2sNe7FNF4obodw=w397-h594-no'
     }
   ]
