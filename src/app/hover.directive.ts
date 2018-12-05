@@ -8,15 +8,17 @@ export class HoverDirective {
   constructor(private el: ElementRef) { }
 
   @HostListener('mouseenter') onMouseEnter() {
-    this.hoverOpacity(1);
+    this.hoverOpacity(1, '55%', 1.15);
   }
 
   @HostListener('mouseleave') onMouseLeave() {
-    this.hoverOpacity(0);
+    this.hoverOpacity(0, '65%', 1);
   }
 
-  private hoverOpacity (value: number) {
-    this.el.nativeElement.style.opacity = value;
+  private hoverOpacity (valueOpacity: number, valuePadding: string, valueScale: number) {
+    this.el.nativeElement.style.opacity = valueOpacity;
+    this.el.nativeElement.style.paddingTop = valuePadding;
+    this.el.nativeElement.nextSibling.style.transform = 'scale(' + valueScale + ')';
   }
 
 }
