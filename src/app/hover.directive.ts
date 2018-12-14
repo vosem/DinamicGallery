@@ -8,12 +8,12 @@ export class HoverDirective {
   constructor(private el: ElementRef) { }
 
     @HostListener('touchstart') onTouchStart(e) {
-      // e.preventDefault();
+      e.preventDefault();
       this.hoverOpacity(0, '65%', 1);
 
     }
     @HostListener('touchend') onTouchEnd(e) {
-      // e.preventDefault();
+      e.preventDefault();
       this.hoverOpacity(0, '65%', 1);
       this.el.nativeElement.childNodes[1].classList.toggle('hidden');
     }
