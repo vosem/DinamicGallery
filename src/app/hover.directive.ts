@@ -9,7 +9,7 @@ export class HoverDirective {
 
   @HostListener('mouseenter') onMouseEnter() {
     this.hoverOpacity(1, '55%', 1.15);
-    if(window.matchMedia('(max-width: 680px)').matches){
+    if(window.matchMedia('(max-width: 768px)').matches){
       this.el.nativeElement.childNodes[1].style.display = 'none';
     }
   }
