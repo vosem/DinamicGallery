@@ -7,7 +7,18 @@ export class HoverDirective {
 
   constructor(private el: ElementRef) { }
 
-  @HostListener('mouseenter') onMouseEnter() {
+    @HostListener('touchstart') onTouchStart(e) {
+      // e.preventDefault();
+      this.hoverOpacity(0, '65%', 1);
+
+    }
+    @HostListener('touchend') onTouchEnd(e) {
+      // e.preventDefault();
+      this.hoverOpacity(0, '65%', 1);
+      this.el.nativeElement.childNodes[1].classList.toggle('hidden');
+    }
+
+    @HostListener('mouseenter') onMouseEnter() {
     this.hoverOpacity(1, '55%', 1.15);
     if(window.matchMedia('(max-width: 768px)').matches){
       this.el.nativeElement.childNodes[1].style.display = 'none';
