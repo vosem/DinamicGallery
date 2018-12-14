@@ -9,10 +9,17 @@ export class HoverDirective {
 
   @HostListener('mouseenter') onMouseEnter() {
     this.hoverOpacity(1, '55%', 1.15);
+    if(window.matchMedia('(max-width: 680px)').matches){
+      this.el.nativeElement.childNodes[1].style.display = 'none';
+    }
   }
 
   @HostListener('mouseleave') onMouseLeave() {
     this.hoverOpacity(0, '65%', 1);
+    if(window.matchMedia('(max-width: 768px)').matches){
+      var el = this.el.nativeElement.childNodes[1];
+      setTimeout(function(){el.style.display = 'block'}, 100);
+    }
   }
 
   private hoverOpacity (valueOpacity: number, valuePadding: string, valueScale: number) {
