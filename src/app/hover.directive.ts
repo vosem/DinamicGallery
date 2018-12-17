@@ -15,7 +15,7 @@ export class HoverDirective {
   @HostListener('touchend') onTouchEnd(e) {
     this.el.nativeElement.childNodes[0].classList.toggle('zoom');
     this.el.nativeElement.childNodes[1].classList.toggle('hoverActivated');
-    // this.el.nativeElement.childNodes[1].childNodes[1].classList.toggle('activated');
+    this.el.nativeElement.childNodes[1].childNodes[1].classList.toggle('activated');
     e.preventDefault();
     e.stopPropagation();
   }
