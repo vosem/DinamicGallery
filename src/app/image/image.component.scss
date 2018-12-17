@@ -36,7 +36,8 @@ a{
 	color: #fff;
 	font-size: 1.5em;
 	text-decoration: none;
-	transition: all 0s linear .5s;
+	opacity: 0;
+	transition: all 1s;
 }
 .zoom{
 	transform: scale(1.15);
@@ -50,5 +51,10 @@ a{
 }
 .activated{
 	display: block;
-	transition: all 0s linear .5s;
+	opacity: 0;
+	transition: all 1s;
+}
+.fadedIn{
+	opacity: 1;
+	transition: all 1s;
 }
