@@ -23,38 +23,37 @@ img{
     padding-top: 65%;
     opacity: 0;
     transform: scale(1);
-    transition: all .5s;
+    transition: padding-top .5s, transform .5s, opacity .5s;
 	font-size: 2em;
 	text-align: center;
 }
 a{
-	display: none;
-	width: 40px;
-	height: 40px;
+	display: block;
+	width: 0;
+	height: 0;
 	text-align: center;
 	margin: -3vh auto 0 auto;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 0em;
 	text-decoration: none;
 	opacity: 0;
-	transition: all 1s;
 }
 .zoom{
 	transform: scale(1.15);
-	transition: all .5s;	
 }
 .hoverActivated{
 	opacity: 1;
 	padding-top: 55%;
 	transform: scale(1.15);
-	transition: all .5s;
 }
 .activated{
-	display: block;
-	opacity: 0;
-	transition: all 1s;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	font-size: 1.5em;
+	transition: width 0s linear .5s, height 0s linear .5s, opacity .5s linear .5s, font-size 0s linear .5s;
 }
 .fadedIn{
 	opacity: 1;
-	transition: all 1s;
+	transition: all 2.5s;
 }
