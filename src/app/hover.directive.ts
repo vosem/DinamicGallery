@@ -37,18 +37,12 @@ export class HoverDirective {
     console.log(this.el.nativeElement.childNodes);
     this.el.nativeElement.childNodes[0].classList.add('zoom');
     this.el.nativeElement.childNodes[1].classList.add('hoverActivated');
-    // this.el.nativeElement.childNodes[1].childNodes[1].classList.add('fadedIn');
     this.el.nativeElement.childNodes[1].childNodes[1].classList.add('activated');
-    // var a = this.el.nativeElement.childNodes[1].childNodes[1];
-    // setTimeout( function(){
-    //   a.classList.add('activated');
-    // }, 500);
   }
 
   @HostListener('mouseleave') onMouseLeave() {
     this.el.nativeElement.childNodes[0].classList.remove('zoom');
     this.el.nativeElement.childNodes[1].classList.remove('hoverActivated');
-    // this.el.nativeElement.childNodes[1].childNodes[1].classList.remove('fadedIn');
     this.el.nativeElement.childNodes[1].childNodes[1].classList.remove('activated');
   }
 }
