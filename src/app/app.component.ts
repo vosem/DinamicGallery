@@ -8,21 +8,20 @@ import { Component } from '@angular/core';
 export class AppComponent {
   images = [
   	{
-      name: 'one year old beauty',
-      // url: 'https://lh3.googleusercontent.com/qtXcW7EozlKlkBENSK2RcTZnlc4i-IYgmlsNFDQsErX-KiJjGmzqI2xk5G400TRCBtfthKzvmtz9R35ySSCKWjGb1kY4zKgM9UXKm2LVwlmv9fjmTHpZ2n_zYyvBU0KRSAgJ__Kp9B8Gj-1XrKZ7qtHylcZHdMJaxSYuRBTvYEtN3_wCEdvN20yZukevUuOuKchHwXvt1sanpSoK5-D6CZXfk-UO5-kqyVFaEBf_0SaECg0M9nA9I4_jHh2-HI4JsEdCLtL48o7HcRkh2bHlPK3eY5dbdtERHwwIECJ-QL0y0cD0JngCggFDPsebyhF63W8rE3g_iS-UZYJJie6hb7s5BnFQxNPOk7rGva9xs_163kCVNxXh1jxn0YDs50ZvhLET7SvDfxpvDWg2ccWehuCAfJPoSwC2fKlAfl1IdkLuBjzm5gFsXxJuwO_h0TNr797IMDNSApaaPsbMstr0j5ABD5XcC7rUgYTkzDLYDA670FUZdvrtPesHlfqyl7I89f0rvr5ltK_YfN7jVkmJAJ8eEwJeHuyUBxKbktChDCNWg5q3MuEGGGpz5jSvtKY0BdaEmyZNznUtGW33IjEQqMDI1dMh8UT_INQpBA6IX2jgihSkW2UxoJRbwVMZoqJE27YnPKXMGeSTvWNnUz9UKI2hRGvXTPh0gEyIFytCzn-Bx2R4lMFsxa9HvmUBhnf3e_moyw71xfIPR_aMqqk=w506-h758-no'
-      url: 'https://'
+      name: 'spring',
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/1.png?raw=true'
     },
     {
-      name: 'family',
-      url: 'https://lh3.googleusercontent.com/SciCPVLGK0aQkBgVemnpJG5qDYiTc3v8cJ8tosI4y3SuHMMVJkWcc0TC7-z8Ij7D3Db3weGGYzCfmQZs-o3Tzxf4NNrZq1J0Xszx4R8MQDtEh37p9M3om2Z_VlAVRx5Z5hXH-TXrDl564Y62VWzveZbEhmlzdkkYOIPkyURUFRAwDQ17KS0c0j1DQXq8SXn4yfGl6sER1ZzQQr8XG6fkdN7cbsFrSj4GjIuwxha54qGF2U42wRfIRhx2T52Xe4VW5DJUwjQIjyP3GMjOHnmVsZX2Z_ED2epXQAh9mMZkGxxZmbMobYF8tFlJdsNzMHIU6ocYREU8lQSZRu16nqJjxQtixrtHD-4VJqf83J0pWIPtf_haxcHHLS1f8XbzE8uKILIuk4ejVkTQBtRTx5Y_Wmr53i5B6iC6iXZKdvz3MqCUio0-jAlcGLBfOMnJDbu2-iCAnO160F2iqWtD8DaqWntS5Rw86G4HPYSMmAw2isYLAGY6bSEAz21cdCydW3WPzv9KlXPT8PmOuUwb88gKOlSfyUtlWhvXouHDjCs_C432N_0g6NFrF2Id_otwzgjOgoWia-CjT8l_V5vnwDQuuGecw9VdSSOp2WTpoL72uzw01YNroGtMXQ_FZpmUOHYXIlM1ywk_WhKDm6MY_vSsJZ9nwOnUu88P0x2c5VmCjvXws7lclKCMtFho4-HpwNUJ9fLFwEFFDlW69_x_s2Y=w521-h758-no'
+      name: 'summer',
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/2.png?raw=true'
     },
     {
-      name: 'papa - best :)',
-      url: 'https://lh3.googleusercontent.com/Z-FxMgsuVLZHgJJqEH4WRJscMZTqR5Oe05XuDLcNjc_9EQe57KXq4ZWRxf3Iffbz2I7ScWhVTrXo3qfwCo1cRd2da5VllyInM2nT_kHLg6XEO8Lc21tFBzlG6wgkyc1l2oO30ttA_SkAxxDjxANbq9YiqkiJjHONX_4BPSeW_iqrU1tJiuej7cuEGxkrZsUwpqyvkrq0RMfozJM9CsObVait5ngxRxe3DEZMrQr7iqUTt50ODQh9x83DFJSDoNRSV40XdRc2lj-iRtgzYcu--jBcdRgiPk_DRmXdGJcJMEk14OC8hQ5UA_X1xYpnjkManst8YF_DewNOT0wRUfEZ2_RlxCZpwPycfkyeZKmO2saD-rK6uaJJnpuk7WhJ3aSriil7m1jT48iQGYxDvb8bPZ3KHcQdlBngdxn5DMswN4HkUzGwf_mpB3MrYUNvcE8Aaz4_0KfGMvs8uWF37ttUrzBpHtzTgGm3gUrRECF71wL95LLUBL65ZGElNPTsH35rioNxKM7_IxNHjfR7x1bS7M7ECwhl1x-HwhYXSE3V1TPRpY9Bt77JugBOPFeP1JzGOuT-zNUkSds9dnQN5DgaS76yiS0JQWXKg3H04nEf3-xUN_w4dBJ7uH4Gy00TtRKrHPb6QIgpw0ZvlDWlwVde2GXIdUQyVY1N5O-09uYfgu97_CjeGH0MP_wWY71zL-cNJzx-Pmtk-tDQFHim-LU=w506-h758-no'
+      name: 'autumn',
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/3.png?raw=true'
     },
     {
-      name: 'yummy',
-      url: 'https://lh3.googleusercontent.com/kka8zpLNOQmtzmufShls6zJ5Xr2Xzz4G8_bN7UndXZ3MsrrY8FOwSdEeM3jwD2g7aQ8ETP4DC6TL6hKVnzHb0znACas4Bk-uXVuidh5rDj4nKN7h5Jk9LIXy_WwyLIdaYV9i3OFWIec00t8AIv26wlR_eMbJy3uCTV-jPp2B-seR1yELWvSH3EOwaXaYIrzoQ_BS9GSe69ermcz8lrwCTeqEWf1kc9Av4RQLVk_QWvb5_g28I2OyDH76Kc1AlIp6Tf_znSwE2Hw-DmdAZvjiLMm7T-3jpRCpFAS-GhxejW36xCHLv8QNhBJ8JgHH9GIUZSvRvGmtFwiHfYEWE5bLp6KbAOza-yJ-1rwVUgfBDyNN3IlpLDssxcamDxtUqsu9cqu0Euu00SDfFsC_7siU5navAk02KAybvdrBORpXJHwxuRBW0HubvZxnMOQ10Y7M9UM99SYf9EkmzmS8iUzl7bNXcqKTtOGS79BkSfPXPq2YKz6Cp0CdfDx6LCWh3Y82qfbTohfvnk4RLxcEmnzL7SxCeuFRHzbHw9mEjdpNMRTfyx6FgnLl_CQVuSOifhFBsHXeTftCoSYbSKVK6IWr_FUfNz2iNt-HhuK2_nZJ_nJo0wCSSSrpCCy9T7oCPkL8duucCWdNZInvkA8jDdPaR8eFyFGGO7gjInQN13ASPSXOdxpdYWiBKqeP9FNRtRiy4s_Rl2sNe7FNF4obodw=w397-h594-no'
+      name: 'winter',
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/4.png?raw=true'
     }
   ]
 }
