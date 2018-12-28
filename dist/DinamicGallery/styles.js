@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nh1 {\n  width: 100vw;\n  color: grey;\n  text-align: center; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9EOlxcR2l0SHViXFxEaW5hbWljR2FsbGVyeS9zcmNcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRTtBQUMvRTtFQUNDLGFBQVk7RUFDWixZQUFXO0VBQ1gsbUJBQWtCLEVBQ2xCIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbmgxe1xuXHR3aWR0aDogMTAwdnc7XG5cdGNvbG9yOiBncmV5O1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nh1 {\n  padding-top: 5vh;\n  width: 100vw;\n  color: grey;\n  text-align: center; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9EOlxcR2l0SHViXFxEaW5hbWljR2FsbGVyeS9zcmNcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRTtBQUMvRTtFQUNDLGlCQUFnQjtFQUNoQixhQUFZO0VBQ1osWUFBVztFQUNYLG1CQUFrQixFQUNsQiIsImZpbGUiOiJzcmMvc3R5bGVzLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5oMXtcblx0cGFkZGluZy10b3A6IDV2aDtcblx0d2lkdGg6IDEwMHZ3O1xuXHRjb2xvcjogZ3JleTtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xufSJdfQ== */", '', '']]
 
 /***/ }),
 
