@@ -9,19 +9,19 @@ export class AppComponent {
   images = [
   	{
       name: 'spring',
-      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/1.png?raw=true'
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/spring.png?raw=true'
     },
     {
       name: 'summer',
-      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/2.png?raw=true'
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/summer.png?raw=true'
     },
     {
       name: 'autumn',
-      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/3.png?raw=true'
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/autumn.png?raw=true'
     },
     {
       name: 'winter',
-      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/4.png?raw=true'
+      url: 'https://github.com/vosem/DinamicGallery/blob/master/src/assets/winter.png?raw=true'
     }
   ]
 }
